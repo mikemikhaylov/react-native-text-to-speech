@@ -1,16 +1,16 @@
-# react-native-tts Windows Implementation
+# react-native-text-to-speech Windows Implementation
 
 ## Module Installation
 You can either use autolinking on react-native-windows 0.63 and later or manually link the module on earlier releases.
 
 ## Automatic install with autolinking on RNW >= 0.63
-RNTTS supports autolinking. Just call: `npm i react-native-tts --save`
+RNTTS supports autolinking. Just call: `npm i react-native-text-to-speech --save`
 
 ## Manual installation on RNW >= 0.62
-1. `npm install react-native-tts --save`
+1. `npm install react-native-text-to-speech --save`
 2. Open your solution in Visual Studio 2019 (eg. `windows\yourapp.sln`)
 3. Right-click Solution icon in Solution Explorer > Add > Existing Project...
-4. Add `node_modules\react-native-tts\windows\RNTTS\RNTTS.vcxproj`
+4. Add `node_modules\react-native-text-to-speech\windows\RNTTS\RNTTS.vcxproj`
 5. Right-click main application project > Add > Reference...
 6. Select `RNTTS` in Solution Projects
 7. In app `pch.h` add `#include "winrt/RNTTS.h"`

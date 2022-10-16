@@ -8733,7 +8733,7 @@ react-is@^16.3.1:
   version "16.4.0"
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.4.0.tgz#cc9fdc855ac34d2e7d9d2eb7059bbc240d35ffcf"
 
-react-native-tts@../:
+react-native-text-to-speech@../:
   version "4.0.0"
 
 react-native-windows@^0.63.0-0:

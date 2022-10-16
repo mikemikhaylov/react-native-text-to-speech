@@ -1,6 +1,8 @@
-# React Native TTS
+# React Native Text To Speech (TTS)
 
-React Native TTS is a text-to-speech library for [React Native](https://facebook.github.io/react-native/) on iOS, Android and Windows.
+Fork of [react-native-tts](https://github.com/ak1394/react-native-tts)
+
+React Native Text To Speech is a text-to-speech library for [React Native](https://facebook.github.io/react-native/) on iOS, Android and Windows.
 
 ## Documentation
 
@@ -12,8 +14,8 @@ React Native TTS is a text-to-speech library for [React Native](https://facebook
 ## Install
 
 ```shell
-npm install --save react-native-tts
-react-native link react-native-tts
+npm install --save react-native-text-to-speech
+react-native link react-native-text-to-speech
 ```
 
 ## Usage
@@ -21,7 +23,7 @@ react-native link react-native-tts
 ### Imports
 
 ```js
-import Tts from 'react-native-tts';
+import Tts from 'react-native-text-to-speech';
 ```
 
 #### Windows
@@ -30,7 +32,7 @@ import Tts from 'react-native-tts';
 
    - Open the solution in Visual Studio 2019
    - Right-click Solution icon in Solution Explorer > Add > Existing Project
-   - Select `node_modules\react-native-tts\windows\RNTTS\RNTTS.vcxproj`
+   - Select `node_modules\react-native-text-to-speech\windows\RNTTS\RNTTS.vcxproj`
 
 2. In `windows/myapp/myapp.vcxproj` add a reference to `RNTTS` to your main application project. From Visual Studio 2019:
 
@@ -238,7 +240,7 @@ Tts.getInitStatus().then(() => {
 
 ## Example
 
-There is an example project which shows use of react-native-tts on Android/iOS/Windows: https://github.com/themostaza/react-native-tts-example
+There is an example project which shows use of react-native-text-to-speech on Android/iOS/Windows: https://github.com/themostaza/react-native-tts-example
 
 ## License
 
