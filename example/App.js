@@ -4,7 +4,6 @@
 
 import React, { Component } from "react";
 import {
-  Platform,
   StyleSheet,
   Text,
   View,
@@ -14,7 +13,7 @@ import {
   TextInput,
   Keyboard
 } from "react-native";
-import Tts from "react-native-tts";
+import Tts from "react-native-text-to-speech";
 
 type Props = {};
 export default class App extends Component<Props> {
